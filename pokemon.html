@@ -5,62 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="pokemon.css"> 
 </head>
+
 <body>
 
-<h1>POKEDEX</h1>
+<h1> POKEDEX </h1>
 
-<a href="water.html">WATER</a>
-<a href="fire.html">FIRE</a>
-<a href="grass.html">GRASS</a>
-<a href="pokemon.html">HOME</a>
-<br><br>
-<img height=400px src="https://i0.wp.com/www.vooks.net/img/2016/02/pokemonlogo.jpg?fit=1000%2C562&ssl=1" alt="pokemon">
+<table >
+    <tr>
+        <td><a href="water.html">WATER</a></td>
+        <td><a href="fire.html">FIRE</a></td>
+        <td><a href="grass.html">GRASS</a></td>
+        <td><a href="pokemon.html">HOME</a></td>
+    </tr>
+</table>
 
-<h3>POKEMON TYPES</h3>
+<img class="picture" src="https://i0.wp.com/www.vooks.net/img/2016/02/pokemonlogo.jpg?fit=1000%2C562&ssl=1" alt="pokemon">
 
-<text>Whats your favorite type?</text>
+
+
+
+
+<h2>Whats your favorite type?</h2>
 <ul>
-    <li>Water</li>
-    <li>Fire</li>
-    <li>Grass</li>
+    <li id = "water"><a href="water.html">WATER</a></li>
+    <li id = "fire"><a href="fire.html">FIRE</a></li>
+    <li id = "grass"><a href="grass.html">GRASS</a></li>
 </ul>
     
-<h2>Attack Effectiveness</h2><br>
-<text><b> '--' = No Change in Effect, 'X' = Very Effective, 'O' = Not Very Effective</b></text>
-<br><br>
+<h2>Attack Effectiveness</h2>
+<h2><b> '--' = No Change in Effect, 'X' = Very Effective, 'O' = Not Very Effective</b></h2>
 <table>
     <tr>
-        <td>     </td>
-        <td><b>Water</b></td>
-        <td><b>Fire </b></td>
-        <td><b>Grass</b></td>
+        <th>     </th>
+        <th><b>Water</b></th>
+        <th><b>Fire </b></th>
+        <th><b>Grass</b></th>
     </tr>
     <tr>
         <td><b>Water</b></td>
-        <td>--</td> 
+        <td>O</td> 
         <td>X</td>
         <td>O</td>
     </tr>
     <tr>
         <td><b>Fire </b></td>
         <td>O</td>
-        <td>--</td>
+        <td>O</td>
         <td>X</td>
     </tr>
     <tr>
         <td><b>Grass</b></td>
         <td>X</td>
-        <td>--</td>
+        <td>O</td>
         <td>O</td>
     </tr>
 </table>
-<h4>Join our fan club!</h4>
+<h2>Join our fan club!</h2>
 
-<form>
-    <input type="text" name="email" placeholder="Email"><br>
-    <input type="text" name="username" placeholder="username"><br>
-    <input type="text" name="password" placeholder="password"><br>
+<form class="fanclubform">
+    <label for="email">Email</label>
+    <input id="email" type="text" name="email" placeholder="Email">
+    <label for="uname">Username</label>
+    <input id ="uname" type="text" name="username" placeholder="username">
+    <label for="pass">Password</label>
+    <input id="pass" type="text" name="password" placeholder="password">
 </form>
 
 

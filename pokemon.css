@@ -1,0 +1,105 @@
+
+body{
+    background-image: url(https://i.etsystatic.com/9848756/r/il/b936ab/2963821242/il_570xN.2963821242_185n.jpg);
+    background-color:blue;
+    background-size:auto;
+}
+
+h1{
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: black;
+    font-size:50px;
+    font-family:fantasy;
+    text-align:center;
+    color:rgb(2, 242, 234);
+    padding:10px;
+    background-color:rgb(8, 3, 145);
+}
+
+h2{
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+    font-size: 25px;
+    font-family:fantasy;
+    text-align:center;
+    background-color:rgb(8, 3, 145);
+    color:rgb(2, 242, 234);
+}
+
+.picture {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+    margin-top:30px;
+    border-width:8px;
+    border-color:black;
+    border-style: solid;
+    width:65%;
+    height:350px;
+}
+
+ul{
+    margin-left:25%;
+    margin-right:25%;
+}
+
+#water{
+    text-align:center;
+    background-color:rgb(2, 242, 234);
+    color:rgb(2, 242, 234);
+    font-family:fantasy;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+    
+}
+
+#fire{
+    text-align:center;
+    background-color:red;
+    color:white;
+    font-family:fantasy;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+
+}
+
+#grass{
+    text-align:center;
+    background-color:green;
+    color:white;
+    font-family:fantasy;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+}
+table, tr, th, td {
+
+    table-layout:fixed;
+    text-align:center;
+    border-collapse:collapse;
+    border: 3px solid black;
+    width:100%;
+    color:rgb(2, 242, 234);
+    background-color:rgb(8, 3, 145);
+    font-family:fantasy;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+}
+
+a:link, a:visited{
+    color:inherit;
+    font-family:fantasy;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+}
+
+.fanclubform{
+    background-color:rgb(8, 3, 145);
+    color:rgb(2, 242, 234);
+    padding:10px;
+    
+}
+
+
+
+
